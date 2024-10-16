@@ -1,0 +1,99 @@
+.container {
+    min-height: 100vh;
+    background-color: #f8fafc;
+    font-family: 'Roboto', sans-serif;
+    padding: 2em;
+
+}
+
+.app-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 4rem;
+    padding: 2em;
+}
+
+.app-container img {
+    width: 300px;
+    height: 300px;
+}
+
+.comment-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading {
+    color: #1e293b;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.comment-input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40vw;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+.comment-form {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #cbd2d9;
+    border-radius: 5px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+    align-items: center;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cbd2d9;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+.button {
+    background-color: #0284c7;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0ea5e9;
+}
+
+.comments-list {
+    width: 80vw;
+}
+
+.number {
+
+    background-color: #0ea5e9;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+
+}
+
+.flex {
+    display: flex;
+    gap: 1em;
+}
